@@ -48,7 +48,7 @@ const AddUser = (props) => {
     // const ageChangeHandler = (event) => {
     //     setEnteredAge(event.target.value);
     // };
-
+    // error handler
     const errorHandler =() =>{
         setError(null);
     }
