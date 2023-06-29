@@ -64,6 +64,7 @@ const AddUser = (props) => {
                 // value={enteredUsername} 
                 //  onChange={usernameChangeHandler}
                  ref={nameInputRef}/>
+                
                  {/* labels */}
 
                 <label htmlFor='age' >Age</label>
