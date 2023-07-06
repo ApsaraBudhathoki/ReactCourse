@@ -1,7 +1,7 @@
 .login {
     width: 90%;
     max-width: 40rem;
-    margin: 2rem auto;
+    margin: 5rem auto;
     padding: 2rem;
   }
   
@@ -20,7 +20,7 @@
   .control label {
     font-weight: bold;
     flex: 1;
-    color: #c8c0c0;
+    color: #181717;
     margin-bottom: 0.5rem;
   }
   
@@ -30,6 +30,7 @@
     padding: 0.35rem 0.35rem;
     border-radius: 6px;
     border: 1px solid #ccc;
+   
   }
   
   .control input:focus {
