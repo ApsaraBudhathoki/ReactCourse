@@ -1,8 +1,10 @@
 import React from 'react';
+import MyParagraph from './MyParagraph';
 
 const DemoOutput = (props) =>{
+    console.log("DemoOutput Running");
 return(
-    <div><p>{props.show?! 'This is new!' : ''}</p></div>
+    <MyParagraph>{props.show ? 'This is new!' : ''}</MyParagraph>
 )
-}
-export default DemoOutput;
+};
+export default React.memo(DemoOutput);
